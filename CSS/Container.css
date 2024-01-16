@@ -12,6 +12,7 @@
 .tittle-weather {
     font-size: 3rem;
     font-weight: 700;
+    color: #283747;
 
 }
 
@@ -22,6 +23,7 @@
 .weather-location {
     font-weight: 700;
     font-size: 1.5rem;
+    color: var(--gray);
 
 }
 
