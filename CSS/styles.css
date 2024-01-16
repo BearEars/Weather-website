@@ -1,0 +1,21 @@
+:root {
+    --gray: #757575;
+    --orange: #FF5733;
+    --white-opaci: rgba(255, 255, 255, 0.7);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+html {
+    height: 100vh;
+    max-height: 100vh;
+    background-image: url(../assets/background/forest-orange-lot-clouds.jpg);
+    background-position: center;
+    background-size: cover;
+}

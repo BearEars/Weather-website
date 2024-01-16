@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather</title>
+    <link rel="shortcut icon" href="assets/Icon/icons8-clima.svg" type="image/x-icon">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/Container.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <section class="weather-content">
+        <h1 class="tittle-weather">Weather</h1>
+
+        <div class="result">
+
+        </div>
+
+        <form action="" method="POST" class="get-weather">
+            <input type="text" name="city" placeholder="Type your city" class="input-city">
+
+            <select name="" id="country" class="select-country">
+                <option disabled selected value="">Select the country</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="CR">Costa Rica</option>
+                <option value="ES">Spain</option>
+                <option value="US">United States</option>
+                <option value="MX">Mexico</option>
+                <option value="PE">Peru</option>
+            </select>
+            <input type="submit" name="" class="submit-button" value="Get Weather">
+        </form>
+    </section>
+    <script src="Script/Script.js"></script>
+</body>
+
+</html>
